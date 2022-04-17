@@ -11,11 +11,11 @@ public class Main {
 
         String str = "To be, or not to be, that is the question:\n" +
                      " Time now - " + dataFormat.format(calendar.getTime());
-
-        scrambler.scrambleCeaser(str.trim());
+        scrambler.scramblerCeaser(str);
+        scrambler.Decoder();
 
         scrambler.print();
-        System.out.println(str.charAt(0));
+
 
 
 
